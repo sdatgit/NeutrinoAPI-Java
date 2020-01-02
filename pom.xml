@@ -14,6 +14,14 @@
 
   <name>NeutrinoAPI</name>
 
+  <distributionManagement>
+    <repository>
+      <id>colligso-thirdparty</id>
+      <url>http://repo.colligso.com/nexus/content/repositories/thirdparty/</url>
+    </repository>
+  </distributionManagement>
+
+
   <build>
     <pluginManagement>
       <plugins>
